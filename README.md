@@ -1,7 +1,15 @@
-# Useful commands
+# slack-nyan-bot
 
- * `npm run build`   compile typescript to js
- * `npm run watch`   watch for changes and compile
- * `cdk deploy`      deploy this stack to your default AWS account/region
- * `cdk diff`        compare deployed stack with current state
- * `cdk synth`       emits the synthesized CloudFormation template
+simple cats picture bot for slack
+
+# Setup
+
+> npm install
+
+# deploy
+
+> npm run build && cdk deploy
+
+# Author
+
+tenmihi
