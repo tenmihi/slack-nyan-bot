@@ -4,11 +4,15 @@ simple cats picture bot for slack
 
 # Setup
 
-> npm install
+```
+npm install
+```
 
 # deploy
 
-> npm run build && cdk deploy
+```
+npm run build && cdk deploy
+```
 
 # Author
 
