@@ -1,5 +1,6 @@
 {
   "name": "slack-nyan-bot",
+  "author": "tenmihi",
   "version": "0.1.0",
   "bin": {
     "slack-nyan-bot": "bin/slack-nyan-bot.js"
@@ -11,10 +12,13 @@
   },
   "devDependencies": {
     "@types/node": "8.10.40",
-    "typescript": "^3.3.3333",
-    "aws-cdk": "^0.28.0"
+    "aws-cdk": "^0.28.0",
+    "toml": "^3.0.0",
+    "typescript": "^3.3.3333"
   },
   "dependencies": {
+    "@aws-cdk/aws-apigateway": "^0.28.0",
+    "@aws-cdk/aws-lambda": "^0.28.0",
     "@aws-cdk/cdk": "^0.28.0",
     "source-map-support": "^0.5.9"
   }
